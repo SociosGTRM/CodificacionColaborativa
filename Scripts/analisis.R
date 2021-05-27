@@ -23,8 +23,8 @@ df <- df %>%
 
 # Control de cifras
 control <- df %>%  
-  mutate(asistencia_check    = if_else(RyM <= Asistencia, "FALSO" , "OK"), 
-         menores_check       = if_else(RyM <= Menores, "FALSO" , "OK"))
+  mutate(asistencia_check    = if_else(RyM <= Asistencia, "FALSO" , "CORRECTO"), 
+         menores_check       = if_else(RyM <= Menores, "FALSO" , "CORRECTO"))
 
 # Guardar los datos
 writexl::write_xlsx(control, './Procesados/Control_Asistencia.xlsx')
@@ -47,8 +47,19 @@ write_xlsx(df, './Resultados/Datos/Asistencia.xlsx')
 # Creación de tabla #
 #####################
 
+# Bar diagram - RyM
 ggplot(data = df, aes(Departamento, RyM)) + 
   geom_bar(stat= "identity")
+
+ggsave(path = "Resultados/Figuras", filename =  "RyM.png")
+
+# Bar diagram - Asistencia
+ggplot(data = df, aes(Departamento, Asistencia)) + 
+  geom_bar(stat= "identity")
+
+ggsave(path = "Resultados/Figuras", filename =  "Asistencia.png")
+
+
 
 
 
