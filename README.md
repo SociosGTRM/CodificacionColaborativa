@@ -12,3 +12,21 @@ El taller es diseñado para personas sin ninguna o poca experiencia con GitHub. 
 Para poder trabajar directamente con GitHub en nuestro taller, es necesario instalar GitHub Desktop y crear una cuenta. Sería deseable que los participantes del taller podrían completar esos pasos antes del taller. Al principio del taller se va a mostrar brevemente los pasos de nuevo y ayudar a que todo estamos en la misma página, pero dependiendo de la cantidad de participantes y respectando los tiempos de todos no será posible hacer follow-ups individuales con todos los participantes.
 
 ## Descripción del Repositorio
+
+
+* `/Datos` contiene los datos primarios de asistencia 
+ 
+* `/Procesado`contiene los datos limpiados
+
+* `/Resultados`contiene figuras y datos analizados
+
+* `/scripts` contiene los R scripts para correr la analisis
+
+    - `analysis` contiene el analisis script para crear las figuras y datos necesarios para el reporte
+
+* `/Reporte`contiene el reporte como un documento excel
+
+* `/Participantes`contiene una lista de lxs participantes del taller 
+
+* `/Taller`contiene información sobre el taller y el manual de instalación 
+* 
