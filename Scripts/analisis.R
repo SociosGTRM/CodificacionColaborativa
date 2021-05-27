@@ -55,11 +55,11 @@ ggplot(data = df, aes(Departamento, RyM)) +
 ggsave(path = "Resultados/Figuras", filename =  "RyM.png")
 
 # Bar diagram - Asistencia
-ggplot(data = df, aes(Departamento, Menores)) + 
+ggplot(data = df, aes(Departamento, Asistencia)) + 
   geom_bar(stat= "identity")
 
 # Guardar Figura
-ggsave(path = "Resultados/Figuras", filename =  "Menores.png")
+ggsave(path = "Resultados/Figuras", filename =  "Asistencia.png")
 
 
 
