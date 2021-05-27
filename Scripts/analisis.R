@@ -28,7 +28,6 @@ control <- df %>%
 
 # Guardar los datos
 writexl::write_xlsx(control, './Procesados/Control_Asistencia.xlsx')
-# Test
 
 #####################
 # Analisis de datos #
@@ -61,9 +60,6 @@ ggplot(data = df, aes(Departamento, Asistencia)) +
 
 # Guardar Figura
 ggsave(path = "Resultados/Figuras", filename =  "Asistencia.png")
-
-
-
 
 
 
