@@ -29,4 +29,3 @@ Para poder trabajar directamente con GitHub en nuestro taller, es necesario inst
 * `/Participantes`contiene una lista de lxs participantes del taller 
 
 * `/Taller`contiene información sobre el taller y el manual de instalación 
-* 
