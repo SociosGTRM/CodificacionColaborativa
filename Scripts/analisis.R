@@ -61,7 +61,7 @@ ggplot(data = df, aes(Departamento, Asistencia)) +
 # Guardar Figura
 ggsave(path = "Resultados/Figuras", filename =  "Asistencia.png")
 
-
+#Hola
 
 
 
