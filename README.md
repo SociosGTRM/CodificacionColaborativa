@@ -1,11 +1,5 @@
 # Codificacion Colaborativa
 
-Hola 
-
-# Hola Nils
-
-## Que tal?
-
 ## Descripción del Taller
 El taller introduce a la codificación colaborativa efectiva usando la plataforma GitHub.
 
@@ -24,14 +18,14 @@ Para poder trabajar directamente con GitHub en nuestro taller, es necesario inst
  
 * `/Procesado`contiene los datos limpiados
 
-* `/Resultados`contiene figuras y datos analizados
+* `/Resultados`contiene las figuras y los datos analizados
 
 * `/scripts` contiene los R scripts para correr la analisis
 
     - `analysis` contiene el analisis script para crear las figuras y datos necesarios para el reporte
 
-* `/Reporte`contiene el reporte como un documento excel
+* `/Reporte`contiene el reporte ejemplar
 
 * `/Participantes`contiene una lista de lxs participantes del taller 
 
-* `/Taller`contiene información sobre el taller y el manual de instalación 
+* `/Materiales`contiene información sobre el taller y el manual de instalación así como las diapositivas de la presentación 
